@@ -3,7 +3,7 @@
 # PLEASE UPDATE Dockerfile.txt INSTEAD OF THIS FILE
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 FROM selenium/base:3.0.1-carbon
-MAINTAINER Wangchengkun <onlywang926@163.com>
+MAINTAINER wangchengkun <onlywang926@163.com>
 
 #========================
 # Selenium Configuration
