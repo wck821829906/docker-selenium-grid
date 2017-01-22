@@ -1,0 +1,11 @@
+hub:
+        image: wangchengkun/selenium-hub
+        ports:
+           - "4444:4444"
+chrome:
+        image: docker.io/wywincl/node-chrome
+        links:
+           - hub:hub
+        ports:
+           - 5900
+~                 
